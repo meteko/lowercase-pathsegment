@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "meteko/lowercase-pathsegment",
+    "require": {
+        "neos/neos": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Meteko\\LowercasePathsegment\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Meteko.LowercasePathsegment"
+        }
+    }
+}
